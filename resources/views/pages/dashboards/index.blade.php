@@ -1,7 +1,7 @@
 <x-default-layout>
 
     @section('title')
-        Dashboard
+        Dashboard {{ getName() }} {{ getModeDefault() }}
     @endsection
 
     @section('breadcrumbs')

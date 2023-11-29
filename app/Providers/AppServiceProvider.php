@@ -27,7 +27,7 @@ class AppServiceProvider extends ServiceProvider
     {
         // Update defaultStringLength
         Builder::defaultStringLength(191);
-
         KTBootstrap::init();
+
     }
 }

@@ -24,7 +24,7 @@ const args = getParameters();
 // get selected demo
 let demo = getDemos()[0];
 
-const dir = 'resources/_keenthemes/src';
+const dir = 'resources/_keenthemes/demo2/src';
 
 mix.options({
     cssNano: {
@@ -44,11 +44,11 @@ mix.sass('resources/mix/plugins.scss', `public/assets/plugins/global/plugins.bun
     });
 }).sourceMaps(!mix.inProduction())
     // .setResourceRoot('./')
-    .options({processCssUrls: false})
+    .options({ processCssUrls: false })
     .scripts(require('./resources/mix/plugins.js'), `public/assets/plugins/global/plugins.bundle.js`);
 
 // Build theme css/js
-mix.sass(`${dir}/sass/style.scss`, `public/assets/css/style.bundle.css`, {sassOptions: {includePaths: ['node_modules']}})
+mix.sass(`${dir}/sass/style.scss`, `public/assets/css/style.bundle.css`, { sassOptions: { includePaths: ['node_modules'] } })
     // .options({processCssUrls: false})
     .scripts(require(`./resources/mix/scripts.js`), `public/assets/js/scripts.bundle.js`);
 
@@ -142,6 +142,8 @@ function getDemos() {
     let demos = [];
     args.forEach((arg) => {
         const demo = arg.match(/^demo.*/g);
+        console.log('demo nya bukan sih ', demo)
+
         if (demo) {
             demos.push(demo[0]);
         }

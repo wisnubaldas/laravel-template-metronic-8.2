@@ -2,51 +2,51 @@
 
 return [
 
-    'KT_THEME_BOOTSTRAP' => [
+    'KT_THEME_BOOTSTRAP'           => [
         'default' => \App\Core\Bootstrap\BootstrapDefault::class,
-        'auth' => \App\Core\Bootstrap\BootstrapAuth::class,
-        'system' => \App\Core\Bootstrap\BootstrapSystem::class,
+        'auth'    => \App\Core\Bootstrap\BootstrapAuth::class,
+        'system'  => \App\Core\Bootstrap\BootstrapSystem::class,
     ],
 
-    'KT_THEME' => 'metronic',
+    'KT_THEME'                     => 'TPS Online',
 
     # Theme layout templates directory
 
-    'KT_THEME_LAYOUT_DIR' => 'layout',
+    'KT_THEME_LAYOUT_DIR'          => 'layout',
 
 
     # Theme Mode
     # Value: light | dark | system
 
-    'KT_THEME_MODE_DEFAULT' => 'light',
+    'KT_THEME_MODE_DEFAULT'        => 'system',
     'KT_THEME_MODE_SWITCH_ENABLED' => true,
 
 
     # Theme Direction
     # Value: ltr | rtl
 
-    'KT_THEME_DIRECTION' => 'ltr',
+    'KT_THEME_DIRECTION'           => 'ltr',
 
 
     # Keenicons
     # Value: duotone | outline | bold
 
-    'KT_THEME_ICONS' => 'duotone',
+    'KT_THEME_ICONS'               => 'duotone',
 
 
     # Theme Assets
 
-    'KT_THEME_ASSETS' => [
+    'KT_THEME_ASSETS'              => [
         'favicon' => 'assets/media/logos/favicon.ico',
-        'fonts' => [
+        'fonts'   => [
             'https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700',
         ],
-        'global' => [
+        'global'  => [
             'css' => [
                 'assets/plugins/global/plugins.bundle.css',
                 'assets/css/style.bundle.css',
             ],
-            'js' => [
+            'js'  => [
                 'assets/plugins/global/plugins.bundle.js',
                 'assets/js/scripts.bundle.js',
                 'assets/js/widgets.bundle.js',
@@ -57,54 +57,54 @@ return [
 
     # Theme Vendors
 
-    'KT_THEME_VENDORS' => [
-        'datatables' => [
+    'KT_THEME_VENDORS'             => [
+        'datatables'             => [
             'css' => [
                 'assets/plugins/custom/datatables/datatables.bundle.css',
             ],
-            'js' => [
+            'js'  => [
                 'assets/plugins/custom/datatables/datatables.bundle.js',
             ],
         ],
-        'formrepeater' => [
+        'formrepeater'           => [
             'js' => [
                 'assets/plugins/custom/formrepeater/formrepeater.bundle.js',
             ],
         ],
-        'fullcalendar' => [
+        'fullcalendar'           => [
             'css' => [
                 'assets/plugins/custom/fullcalendar/fullcalendar.bundle.css',
             ],
-            'js' => [
+            'js'  => [
                 'assets/plugins/custom/fullcalendar/fullcalendar.bundle.js',
             ],
         ],
-        'flotcharts' => [
+        'flotcharts'             => [
             'js' => [
                 'assets/plugins/custom/flotcharts/flotcharts.bundle.js',
             ],
         ],
-        'google-jsapi' => [
+        'google-jsapi'           => [
             'js' => [
                 '//www.google.com/jsapi',
             ],
         ],
-        'tinymce' => [
+        'tinymce'                => [
             'js' => [
                 'assets/plugins/custom/tinymce/tinymce.bundle.js',
             ],
         ],
-        'ckeditor-classic' => [
+        'ckeditor-classic'       => [
             'js' => [
                 'assets/plugins/custom/ckeditor/ckeditor-classic.bundle.js',
             ],
         ],
-        'ckeditor-inline' => [
+        'ckeditor-inline'        => [
             'js' => [
                 'assets/plugins/custom/ckeditor/ckeditor-inline.bundle.js',
             ],
         ],
-        'ckeditor-balloon' => [
+        'ckeditor-balloon'       => [
             'js' => [
                 'assets/plugins/custom/ckeditor/ckeditor-balloon.bundle.js',
             ],
@@ -114,83 +114,83 @@ return [
                 'assets/plugins/custom/ckeditor/ckeditor-balloon-block.bundle.js',
             ],
         ],
-        'ckeditor-document' => [
+        'ckeditor-document'      => [
             'js' => [
                 'assets/plugins/custom/ckeditor/ckeditor-document.bundle.js',
             ],
         ],
-        'draggable' => [
+        'draggable'              => [
             'js' => [
                 'assets/plugins/custom/draggable/draggable.bundle.js',
             ],
         ],
-        'fslightbox' => [
+        'fslightbox'             => [
             'js' => [
                 'assets/plugins/custom/fslightbox/fslightbox.bundle.js',
             ],
         ],
-        'jkanban' => [
+        'jkanban'                => [
             'css' => [
                 'assets/plugins/custom/jkanban/jkanban.bundle.css',
             ],
-            'js' => [
+            'js'  => [
                 'assets/plugins/custom/jkanban/jkanban.bundle.js',
             ],
         ],
-        'typedjs' => [
+        'typedjs'                => [
             'js' => [
                 'assets/plugins/custom/typedjs/typedjs.bundle.js',
             ],
         ],
-        'cookiealert' => [
+        'cookiealert'            => [
             'css' => [
                 'assets/plugins/custom/cookiealert/cookiealert.bundle.css',
             ],
-            'js' => [
+            'js'  => [
                 'assets/plugins/custom/cookiealert/cookiealert.bundle.js',
             ],
         ],
-        'cropper' => [
+        'cropper'                => [
             'css' => [
                 'assets/plugins/custom/cropper/cropper.bundle.css',
             ],
-            'js' => [
+            'js'  => [
                 'assets/plugins/custom/cropper/cropper.bundle.js',
             ],
         ],
-        'vis-timeline' => [
+        'vis-timeline'           => [
             'css' => [
                 'assets/plugins/custom/vis-timeline/vis-timeline.bundle.css',
             ],
-            'js' => [
+            'js'  => [
                 'assets/plugins/custom/vis-timeline/vis-timeline.bundle.js',
             ],
         ],
-        'jstree' => [
+        'jstree'                 => [
             'css' => [
                 'assets/plugins/custom/jstree/jstree.bundle.css',
             ],
-            'js' => [
+            'js'  => [
                 'assets/plugins/custom/jstree/jstree.bundle.js',
             ],
         ],
-        'prismjs' => [
+        'prismjs'                => [
             'css' => [
                 'assets/plugins/custom/prismjs/prismjs.bundle.css',
             ],
-            'js' => [
+            'js'  => [
                 'assets/plugins/custom/prismjs/prismjs.bundle.js',
             ],
         ],
-        'leaflet' => [
+        'leaflet'                => [
             'css' => [
                 'assets/plugins/custom/leaflet/leaflet.bundle.css',
             ],
-            'js' => [
+            'js'  => [
                 'assets/plugins/custom/leaflet/leaflet.bundle.js',
             ],
         ],
-        'amcharts' => [
+        'amcharts'               => [
             'js' => [
                 'https://cdn.amcharts.com/lib/5/index.js',
                 'https://cdn.amcharts.com/lib/5/xy.js',
@@ -199,7 +199,7 @@ return [
                 'https://cdn.amcharts.com/lib/5/themes/Animated.js',
             ],
         ],
-        'amcharts-maps' => [
+        'amcharts-maps'          => [
             'js' => [
                 'https://cdn.amcharts.com/lib/5/index.js',
                 'https://cdn.amcharts.com/lib/5/map.js',
@@ -211,18 +211,18 @@ return [
                 'https://cdn.amcharts.com/lib/5/themes/Animated.js',
             ],
         ],
-        'amcharts-stock' => [
+        'amcharts-stock'         => [
             'js' => [
                 'https://cdn.amcharts.com/lib/5/index.js',
                 'https://cdn.amcharts.com/lib/5/xy.js',
                 'https://cdn.amcharts.com/lib/5/themes/Animated.js',
             ],
         ],
-        'bootstrap-select' => [
+        'bootstrap-select'       => [
             'css' => [
                 'assets/plugins/custom/bootstrap-select/bootstrap-select.bundle.css',
             ],
-            'js' => [
+            'js'  => [
                 'assets/plugins/custom/bootstrap-select/bootstrap-select.bundle.js',
             ],
         ],

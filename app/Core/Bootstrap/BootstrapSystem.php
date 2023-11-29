@@ -8,6 +8,6 @@ class BootstrapSystem
     {
         // See also starterkit/app/View/Components/SystemLayout.php to change the layout
 
-        addHtmlClass('body', 'app-blank');
+        addHtmlClass('body', 'header-fixed header-tablet-and-mobile-fixed toolbar-enabled');
     }
 }
